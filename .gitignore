@@ -1,0 +1,9 @@
+dist/func/handler.js
+dist/func/.serverless/
+
+dev/fake_s3/rebecca-becker/*
+
+**/.DS_Store
+**/node_modules
+
+src/gen/config.js

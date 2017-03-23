@@ -1,0 +1,15 @@
+service: rebecca-becker-static-gen
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  generate:
+    handler: handler.generate
+    events:
+      - http:
+          path: users/create
+          method: get
